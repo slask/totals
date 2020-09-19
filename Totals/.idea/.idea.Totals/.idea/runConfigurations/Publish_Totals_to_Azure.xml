@@ -12,7 +12,7 @@
     <option name="AZURE_WEB_APP_SERVICE_PLAN_ID" value="/subscriptions/f50e10a7-144b-4ad7-a7a5-bc29bc067f80/resourceGroups/TTH/providers/Microsoft.Web/serverfarms/ASP-TTH-8af8" />
     <option name="AZURE_WEB_APP_SERVICE_PLAN_NAME" value="appsp-totals" />
     <option name="AZURE_WEB_APP_LOCATION" value="germanywestcentral" />
-    <option name="AZURE_WEB_APP_PRICING_TIER" value="F1" />
+    <option name="AZURE_WEB_APP_PRICING_TIER" value="" />
     <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
     <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 2.1" />
     <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="f50e10a7-144b-4ad7-a7a5-bc29bc067f80" />
