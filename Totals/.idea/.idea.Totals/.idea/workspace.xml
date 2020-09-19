@@ -22,7 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7673a0cd-f6b5-47c9-83e7-a15e0bd49619" name="Default Changelist" comment="" />
+    <list default="true" id="7673a0cd-f6b5-47c9-83e7-a15e0bd49619" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Totals/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Totals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Totals/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,8 +34,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.gitignore" />
+        <option value="$PROJECT_DIR$/Totals/.gitignore" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1hiYVuhvqe82bJd1FPMFNr9h3zQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,6 +53,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Totals">
@@ -82,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600495407479</updated>
-      <workItem from="1600495410669" duration="254000" />
+      <workItem from="1600495410669" duration="637000" />
     </task>
     <task id="LOCAL-00001" summary="switch to MVC App">
       <created>1600495472685</created>
@@ -112,5 +126,27 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="switch to MVC App" />
     <option name="LAST_COMMIT_MESSAGE" value="switch to MVC App" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="369" key="GridCell.Tab.0.bottom" timestamp="1600495431220">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="369" key="GridCell.Tab.0.bottom/0.23.1792.1042/1792.23.1920.1057@1792.23.1920.1057" timestamp="1600495431220" />
+    <state width="1878" height="369" key="GridCell.Tab.0.center" timestamp="1600495431219">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="369" key="GridCell.Tab.0.center/0.23.1792.1042/1792.23.1920.1057@1792.23.1920.1057" timestamp="1600495431219" />
+    <state width="1878" height="369" key="GridCell.Tab.0.left" timestamp="1600495431218">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="369" key="GridCell.Tab.0.left/0.23.1792.1042/1792.23.1920.1057@1792.23.1920.1057" timestamp="1600495431218" />
+    <state width="1878" height="369" key="GridCell.Tab.0.right" timestamp="1600495431219">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="369" key="GridCell.Tab.0.right/0.23.1792.1042/1792.23.1920.1057@1792.23.1920.1057" timestamp="1600495431219" />
+    <state x="2352" y="287" key="Vcs.Push.Dialog.v2" timestamp="1600495474232">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2352" y="287" key="Vcs.Push.Dialog.v2/0.23.1792.1042/1792.23.1920.1057@1792.23.1920.1057" timestamp="1600495474232" />
   </component>
 </project>
