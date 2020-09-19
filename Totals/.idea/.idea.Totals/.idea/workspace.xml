@@ -23,8 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7673a0cd-f6b5-47c9-83e7-a15e0bd49619" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Totals/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Totals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Totals/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Totals/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Totals/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Totals/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Totals/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Totals/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Totals/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Totals/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Totals/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Totals/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Totals/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Totals/obj/Debug/netcoreapp3.1/Totals.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Totals/obj/Debug/netcoreapp3.1/Totals.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Totals/obj/Debug/netcoreapp3.1/Totals.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Totals/obj/Debug/netcoreapp3.1/Totals.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Totals/obj/Debug/netcoreapp3.1/Totals.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Totals/obj/Debug/netcoreapp3.1/Totals.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Totals/obj/Debug/netcoreapp3.1/Totals.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Totals/obj/Debug/netcoreapp3.1/Totals.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +47,9 @@
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.gitignore" />
         <option value="$PROJECT_DIR$/Totals/.gitignore" />
+        <option value="$PROJECT_DIR$/Totals/Views/Home/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Totals/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/Totals/Controllers/HomeController.cs" />
       </list>
     </option>
   </component>
@@ -51,9 +62,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34975636" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29994586" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Totals">
@@ -125,7 +139,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="switch to MVC App" />
-    <option name="LAST_COMMIT_MESSAGE" value="switch to MVC App" />
+    <MESSAGE value="ignore files" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore files" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1878" height="369" key="GridCell.Tab.0.bottom" timestamp="1600495431220">
@@ -148,5 +163,24 @@
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>
     <state x="2352" y="287" key="Vcs.Push.Dialog.v2/0.23.1792.1042/1792.23.1920.1057@1792.23.1920.1057" timestamp="1600495474232" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Totals/Controllers/HomeController.cs</url>
+          <line>29</line>
+          <properties documentPath="$PROJECT_DIR$/Totals/Controllers/HomeController.cs" initialLine="29">
+            <startOffsets>
+              <option value="722" />
+            </startOffsets>
+            <endOffsets>
+              <option value="723" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
