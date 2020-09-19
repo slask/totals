@@ -18,6 +18,15 @@ namespace Totals
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder => { webBuilder.UseStartup<Startup>(); });
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                    webBuilder.UseKestrel(o =>
+                    {
+                        o.Limits.MaxResponseBufferSize = 65_000_000;// ~65MB
+                        o.Limits.MaxRequestBufferSize = 10_000_000;// ~10MB
+                    });
+                    
+                });
     }
 }

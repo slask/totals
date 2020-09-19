@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Runtime.InteropServices;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -27,6 +28,12 @@ namespace Totals.Controllers
         }
 
         [HttpPost("FileUpload")]
+        [RequestFormLimits(
+            MultipartBodyLengthLimit = int.MaxValue,
+            MultipartBoundaryLengthLimit = int.MaxValue,
+            ValueLengthLimit = int.MaxValue
+            )]
+        [DisableRequestSizeLimit]
         public IActionResult Upload(IFormFile formFile)
         {
             Dictionary<string, int> totals = new Dictionary<string, int>();
