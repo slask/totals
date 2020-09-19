@@ -28,12 +28,6 @@ namespace Totals.Controllers
         }
 
         [HttpPost("FileUpload")]
-        [RequestFormLimits(
-            MultipartBodyLengthLimit = int.MaxValue,
-            MultipartBoundaryLengthLimit = int.MaxValue,
-            ValueLengthLimit = int.MaxValue
-            )]
-        [DisableRequestSizeLimit]
         public IActionResult Upload(IFormFile formFile)
         {
             Dictionary<string, int> totals = new Dictionary<string, int>();
