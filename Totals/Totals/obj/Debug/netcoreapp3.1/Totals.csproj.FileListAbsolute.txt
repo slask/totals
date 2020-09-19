@@ -19,7 +19,6 @@
 /Users/lmandras/Personal/Totals/totals/Totals/Totals/obj/Debug/netcoreapp3.1/Totals.TagHelpers.output.cache
 /Users/lmandras/Personal/Totals/totals/Totals/Totals/obj/Debug/netcoreapp3.1/Totals.RazorCoreGenerate.cache
 /Users/lmandras/Personal/Totals/totals/Totals/Totals/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
-/Users/lmandras/Personal/Totals/totals/Totals/Totals/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
 /Users/lmandras/Personal/Totals/totals/Totals/Totals/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
 /Users/lmandras/Personal/Totals/totals/Totals/Totals/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
 /Users/lmandras/Personal/Totals/totals/Totals/Totals/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
@@ -34,3 +33,15 @@
 /Users/lmandras/Personal/Totals/totals/Totals/Totals/obj/Debug/netcoreapp3.1/Totals.pdb
 /Users/lmandras/Personal/Totals/totals/Totals/Totals/obj/Debug/netcoreapp3.1/Totals.genruntimeconfig.cache
 /Users/lmandras/Personal/Totals/totals/Totals/Totals/obj/Debug/netcoreapp3.1/Totals.csproj.CopyComplete
+/Users/lmandras/Personal/Totals/totals/Totals/Totals/bin/Debug/netcoreapp3.1/EPPlus.dll
+/Users/lmandras/Personal/Totals/totals/Totals/Totals/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+/Users/lmandras/Personal/Totals/totals/Totals/Totals/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/lmandras/Personal/Totals/totals/Totals/Totals/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.dll
+/Users/lmandras/Personal/Totals/totals/Totals/Totals/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Json.dll
+/Users/lmandras/Personal/Totals/totals/Totals/Totals/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll
+/Users/lmandras/Personal/Totals/totals/Totals/Totals/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll
+/Users/lmandras/Personal/Totals/totals/Totals/Totals/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileSystemGlobbing.dll
+/Users/lmandras/Personal/Totals/totals/Totals/Totals/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/Users/lmandras/Personal/Totals/totals/Totals/Totals/bin/Debug/netcoreapp3.1/System.Text.Encoding.CodePages.dll
+/Users/lmandras/Personal/Totals/totals/Totals/Totals/bin/Debug/netcoreapp3.1/System.Xml.XPath.XmlDocument.dll
+/Users/lmandras/Personal/Totals/totals/Totals/Totals/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll
