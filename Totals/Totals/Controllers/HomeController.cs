@@ -30,7 +30,7 @@ namespace Totals.Controllers
         [HttpPost("FileUpload")]
         public IActionResult Upload(IFormFile formFile)
         {
-            Dictionary<string, int> totals = new Dictionary<string, int>();
+            Dictionary<string, decimal> totals = new Dictionary<string, decimal>();
 
             ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
             using (ExcelPackage package = new ExcelPackage(formFile.OpenReadStream()))
@@ -63,7 +63,7 @@ namespace Totals.Controllers
                         continue;
                     }
 
-                    if (!int.TryParse(qtyValue.ToString(), out int qty))
+                    if (!decimal.TryParse(qtyValue.ToString(), out decimal qty))
                     {
                         continue;
                     }
@@ -85,7 +85,7 @@ namespace Totals.Controllers
                 var destSheet = destPackage.Workbook.Worksheets[0];
 
                 // set number styling
-                var numberformat = "#,##0";
+                var numberformat = "#,##0.00";
                 var dataCellStyleName = "TableNumber";
                 var numStyle = destPackage.Workbook.Styles.CreateNamedStyle(dataCellStyleName);
                 numStyle.Style.Numberformat.Format = numberformat;
