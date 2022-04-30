@@ -40,11 +40,19 @@ namespace Totals.Controllers
 
                 int skuCol = 1; //the item name column index (1 based)
                 int qtySoldCol = 8; //the qty sold coulmn index (1 based)
+                int invoiceCol = 7;
                 int firstProductRow = 10; // the first row that has actual product data
                 int totalRows = srcSheet.Dimension.End.Row;
 
                 for (int row = firstProductRow; row < totalRows; row++)
                 {
+                    // only invoices starting with TTD should be considered
+                    var invoiceNr = srcSheet.Cells[row, invoiceCol].Value;
+                    if (invoiceNr == null || !invoiceNr.ToString().Trim().StartsWith("TTD"))
+                    {
+                        continue;
+                    }
+
                     var skuValue = srcSheet.Cells[row, skuCol].Value;
                     if (skuValue == null)
                     {
